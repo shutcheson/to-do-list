@@ -42,7 +42,7 @@ function show() { /*This will show the current to do list stored in the database
     var html = '<ul>';
 
     for(var i = 0; i < todos.length; i++) {
-        html += '<li>' + todos[i] + 'button class="remove" id = "' + i + '>Delete</button> </li>';
+        html += '<li>' + todos[i] + '<button class = "remove" id = "">' + 'Delete</button> </li>';
 
     html += '</ul>';
 
